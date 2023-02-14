@@ -1,0 +1,92 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    text-align: left;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.Preview {
+    background-color: hsl(0, 0%, 100%);
+    width: 500px;
+    height: 375px;
+    position: relative;
+    margin-bottom: 100px;
+    margin-top: 200px;
+    margin-left: 600px;
+    border-radius: 5%;
+    float: none;
+
+}
+
+.title{
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    margin-right: 10px;
+    font-size: 200%;
+    line-height: 1;
+    margin: 10px 20px 10px 50px;
+}
+
+img {
+    width: 50%;
+    float: left;
+    margin-right: 15px;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+.price-tag{
+    font-family: 'Fraunces', serif;
+    float: left;
+    color: hsl(158, 36%, 37%);
+    padding: auto;
+    margin: 0;
+    padding-right: 20px;
+}
+
+.discount {
+    float: left;
+    font-family: 'Fraunces', serif;
+    font-size: 14px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+
+}
+
+h3{
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    margin: 50px auto 0 auto;
+    padding-top: 20px;
+}
+
+p{
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    background: #3c8067;
+    background-image: -webkit-linear-gradient(top, #3c8067, #3c8067);
+    background-image: -moz-linear-gradient(top, #3c8067, #3c8067);
+    background-image: -ms-linear-gradient(top, #3c8067, #3c8067);
+    background-image: -o-linear-gradient(top, #3c8067, #3c8067);
+    background-image: linear-gradient(to bottom, #3c8067, #3c8067);
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    padding: 10px 50px 10px 50px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #255241;
+}
